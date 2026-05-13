@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { TripPlan, Hotel as HotelType, Activity } from "@/lib/types";
+import { TripPlan, HotelInfo as HotelType, ActivityInfo } from "@/lib/types";
 import { MapPin, Clock, Ticket, Navigation2, Star, Hotel, Map as MapIcon, ExternalLink, Download, Check, Copy, Trash2, Plus, Save, Loader2, Sparkles as SparklesIcon, Share2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import PlaceImage from "@/app/_components/PlaceImage";
