@@ -1,7 +1,7 @@
 
 
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Provider from "./provider";
 import { ClerkProvider } from "@clerk/nextjs";
@@ -10,11 +10,14 @@ import { ThemeProvider } from "next-themes";
 import GlobalHotkeys from "./_components/GlobalHotkeys";
 
 export const metadata: Metadata = {
-  title: "AquaNova | AI-Powered Luxury Voyages",
+  title: "TripBuddy AI | AI-Powered Luxury Voyages",
   description: "Architected by Shounak Mandal",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
-const outfit = Outfit({ subsets: ["latin"] });
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -24,7 +27,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className={outfit.className}>
+        <body className={urbanist.className}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             <GlobalHotkeys />
             <ConvexClientProvider>

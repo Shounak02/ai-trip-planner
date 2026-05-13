@@ -68,7 +68,7 @@
   }
 }
 
-/* ===== AquaNova Theme (Light & Dark) ===== */
+/* ===== TripBuddy AI Theme (Light & Dark) ===== */
 :root {
   --radius: 0.75rem;
 
@@ -82,7 +82,7 @@
   --popover: #001827;
   --popover-foreground: #ffffff;
 
-  /* Brand – AquaNova Colors */
+  /* Brand – TripBuddy AI Colors */
   --primary: #00E5FF;
   --primary-foreground: #001827;
 
@@ -95,7 +95,7 @@
   --accent: #00E5FF;
   --accent-foreground: #001827;
 
-  /* AquaNova Gradient */
+  /* TripBuddy AI Gradient */
   --hero-gradient: linear-gradient(135deg, #001827 0%, #005f73 100%);
 
   /* States */

@@ -61,7 +61,7 @@ export default function Header() {
                         exit={{ opacity: 0, x: -10 }}
                         className="flex flex-col hidden sm:flex"
                     >
-                        <h2 className="font-black text-2xl tracking-tighter text-white uppercase leading-none">AquaNova</h2>
+                        <h2 className="font-black text-2xl tracking-tight text-white uppercase leading-none">TripBuddy AI</h2>
                         <span className="text-[8px] font-black uppercase tracking-[0.3em] text-primary opacity-80">Voyage Explorer</span>
                     </motion.div>
                 )}

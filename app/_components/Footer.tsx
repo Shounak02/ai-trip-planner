@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="text-primary-foreground font-black text-2xl tracking-tighter">A</span>
             </div>
             <div className="flex flex-col">
-              <h2 className="font-black text-2xl tracking-tighter text-white uppercase leading-none">AquaNova</h2>
+              <h2 className="font-black text-2xl tracking-tight text-white uppercase leading-none">TripBuddy AI</h2>
               <span className="text-[8px] font-black uppercase tracking-[0.3em] text-primary opacity-80">Voyage Explorer</span>
             </div>
           </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
               { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/shounakmandal/" },
               { icon: <Github className="w-5 h-5" />, href: "https://github.com/Shounak02" },
               { icon: <Twitter className="w-5 h-5" />, href: "https://x.com/shounak02" },
-              { icon: <Mail className="w-5 h-5" />, href: "mailto:support@aquanova.ai" }
+              { icon: <Mail className="w-5 h-5" />, href: "mailto:support@tripbuddy.ai" }
             ].map((social, idx) => (
               <motion.a
                 key={idx}
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
           <div className="pt-4 text-right">
              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20 italic">
-               © 2026 AquaNova Systems. <br /> All Expeditions Secured.
+               © 2026 TripBuddy AI Systems. <br /> All Expeditions Secured.
              </p>
           </div>
         </div>

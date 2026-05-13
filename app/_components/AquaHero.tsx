@@ -115,7 +115,7 @@ export default function AquaHero() {
         <motion.canvas
           ref={canvasRef}
           role="img"
-          aria-label="AquaNova luxury catamaran voyage"
+          aria-label="TripBuddy AI luxury catamaran voyage"
           className="w-full h-full object-cover z-10"
           animate={{
             scale: [1, 1.05, 1],
@@ -149,7 +149,7 @@ export default function AquaHero() {
           className="absolute top-20 left-10 md:top-32 md:left-20 max-w-xl z-20"
         >
           <h1 className="text-6xl md:text-8xl font-extrabold text-white leading-tight">
-            AquaNova. <br />
+            TripBuddy AI. <br />
             <span className="text-primary">Your voyage, reimagined.</span>
           </h1>
         </motion.div>

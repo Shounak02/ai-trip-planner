@@ -20,7 +20,7 @@ export default function SupportPage() {
       icon: <Mail className="w-6 h-6 text-primary" />,
       title: "Direct Channels",
       desc: "Our dispatchers are standing by 24/7.",
-      contact: "support@aquanova.ai"
+      contact: "support@tripbuddy.ai"
     },
     {
       icon: <MessageSquare className="w-6 h-6 text-primary" />,
