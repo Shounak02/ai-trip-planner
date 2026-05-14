@@ -147,15 +147,15 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
                   opacity: 0,
                   y: 20,
                 }}
-                animate={{
+                whileInView={{
                   opacity: 1,
                   y: 0,
-                  transition: {
-                    duration: 0.5,
-                    delay: 0.2 * index,
-                    ease: "easeOut",
-                    once: true,
-                  },
+                }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.5,
+                  delay: 0.2 * index,
+                  ease: "easeOut",
                 }}
                 key={"card" + index}
                 className="rounded-3xl last:pr-[5%] md:last:pr-[33%]"
